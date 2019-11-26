@@ -1,0 +1,11 @@
+module NotePadApp
+{
+  interface NotePad {
+    boolean addNote(in string a);
+
+    boolean showNotes();
+
+    boolean deleteNote(in long b);
+    oneway void shutdown();
+  };
+};
